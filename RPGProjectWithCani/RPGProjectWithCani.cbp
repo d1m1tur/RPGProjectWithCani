@@ -30,24 +30,11 @@
 		</Build>
 		<Compiler>
 			<Add option="-Wall" />
-			<Add directory="./include" />
 		</Compiler>
-		<Unit filename="include/Game.h" />
-		<Unit filename="include/Includes.h" />
-		<Unit filename="src/Cleanup.cpp" />
-		<Unit filename="src/FPS.cpp" />
-		<Unit filename="src/Game.cpp" />
-		<Unit filename="src/LoadContent.cpp" />
-		<Unit filename="src/OnEvent.cpp" />
-		<Unit filename="src/OnInit.cpp" />
-		<Unit filename="src/OnLoop.cpp" />
-		<Unit filename="src/OnRender.cpp" />
 		<Extensions>
 			<code_completion />
 			<envvars />
-			<debugger>
-				<search_path add="include" />
-			</debugger>
+			<debugger />
 			<lib_finder disable_auto="1" />
 		</Extensions>
 	</Project>
