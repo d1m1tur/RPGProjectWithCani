@@ -1,0 +1,41 @@
+# depslib dependency file v1.0
+1481557569 source:c:\users\dimit\documents\codeblocks projects\rpgprojectwithcani\src\cleanup.cpp
+	"Game.h"
+
+1481558139 c:\users\dimit\documents\codeblocks projects\rpgprojectwithcani\include\game.h
+	"Includes.h"
+
+1489189634 c:\users\dimit\documents\codeblocks projects\rpgprojectwithcani\include\includes.h
+	<SDL.h>
+	<SDL_image.h>
+	<iostream>
+	<windows.h>
+	<stdlib.h>
+	<stdio.h>
+	<time.h>
+	<typeinfo>
+	<fstream>
+	<sstream>
+	<math.h>
+
+1445720557 source:c:\users\dimit\documents\codeblocks projects\rpgprojectwithcani\src\fps.cpp
+	"Game.h"
+
+1481557570 source:c:\users\dimit\documents\codeblocks projects\rpgprojectwithcani\src\game.cpp
+	"Game.h"
+
+1481557570 source:c:\users\dimit\documents\codeblocks projects\rpgprojectwithcani\src\loadcontent.cpp
+	"Game.h"
+
+1481557571 source:c:\users\dimit\documents\codeblocks projects\rpgprojectwithcani\src\onevent.cpp
+	"Game.h"
+
+1489191304 source:c:\users\dimit\documents\codeblocks projects\rpgprojectwithcani\src\oninit.cpp
+	"Game.h"
+
+1481557785 source:c:\users\dimit\documents\codeblocks projects\rpgprojectwithcani\src\onloop.cpp
+	"Game.h"
+
+1481558161 source:c:\users\dimit\documents\codeblocks projects\rpgprojectwithcani\src\onrender.cpp
+	"Game.h"
+
