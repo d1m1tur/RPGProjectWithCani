@@ -39,3 +39,99 @@
 1481558161 source:c:\users\dimit\documents\codeblocks projects\rpgprojectwithcani\src\onrender.cpp
 	"Game.h"
 
+1481557569 source:c:\users\dimit\desktop\git\rpgprojectwithcani\rpgprojectwithcani\src\cleanup.cpp
+	"Game.h"
+
+1489351144 c:\users\dimit\desktop\git\rpgprojectwithcani\rpgprojectwithcani\include\game.h
+	"Includes.h"
+
+1489351154 c:\users\dimit\desktop\git\rpgprojectwithcani\rpgprojectwithcani\include\includes.h
+	<SDL.h>
+	<SDL_image.h>
+	<iostream>
+	<windows.h>
+	<stdlib.h>
+	<stdio.h>
+	<time.h>
+	<typeinfo>
+	<fstream>
+	<sstream>
+	<math.h>
+
+1489350898 source:c:\users\dimit\desktop\git\rpgprojectwithcani\rpgprojectwithcani\src\fps.cpp
+	"Game.h"
+
+1489351193 source:c:\users\dimit\desktop\git\rpgprojectwithcani\rpgprojectwithcani\src\game.cpp
+	"Game.h"
+
+1481557570 source:c:\users\dimit\desktop\git\rpgprojectwithcani\rpgprojectwithcani\src\loadcontent.cpp
+	"Game.h"
+
+1489191336 source:c:\users\dimit\desktop\git\rpgprojectwithcani\rpgprojectwithcani\src\onevent.cpp
+	"Game.h"
+
+1489247134 source:c:\users\dimit\desktop\git\rpgprojectwithcani\rpgprojectwithcani\src\oninit.cpp
+	"Game.h"
+
+1489350305 source:c:\users\dimit\desktop\git\rpgprojectwithcani\rpgprojectwithcani\src\onloop.cpp
+	"Game.h"
+
+1481558161 source:c:\users\dimit\desktop\git\rpgprojectwithcani\rpgprojectwithcani\src\onrender.cpp
+	"Game.h"
+
+1481561169 source:c:\users\dimit\desktop\stuff\git\rpgprojectwithcani\rpgprojectwithcani\src\cleanup.cpp
+	"Game.h"
+
+1493163666 c:\users\dimit\desktop\stuff\git\rpgprojectwithcani\rpgprojectwithcani\include\game.h
+	"Includes.h"
+	"Map.h"
+
+1493163382 c:\users\dimit\desktop\stuff\git\rpgprojectwithcani\rpgprojectwithcani\include\includes.h
+	<SDL.h>
+	<SDL_image.h>
+	<iostream>
+	<windows.h>
+	<stdlib.h>
+	<stdio.h>
+	<time.h>
+	<typeinfo>
+	<fstream>
+	<sstream>
+	<math.h>
+	<string.h>
+	<vector>
+
+1489355147 source:c:\users\dimit\desktop\stuff\git\rpgprojectwithcani\rpgprojectwithcani\src\fps.cpp
+	"Game.h"
+
+1493163685 source:c:\users\dimit\desktop\stuff\git\rpgprojectwithcani\rpgprojectwithcani\src\game.cpp
+	"Game.h"
+
+1493163974 source:c:\users\dimit\desktop\stuff\git\rpgprojectwithcani\rpgprojectwithcani\src\loadcontent.cpp
+	"Game.h"
+
+1489194936 source:c:\users\dimit\desktop\stuff\git\rpgprojectwithcani\rpgprojectwithcani\src\onevent.cpp
+	"Game.h"
+
+1489353905 source:c:\users\dimit\desktop\stuff\git\rpgprojectwithcani\rpgprojectwithcani\src\onloop.cpp
+	"Game.h"
+
+1493162871 source:c:\users\dimit\desktop\stuff\git\rpgprojectwithcani\rpgprojectwithcani\src\onrender.cpp
+	"Game.h"
+
+1493161285 source:c:\users\dimit\desktop\stuff\git\rpgprojectwithcani\rpgprojectwithcani\src\oninit.cpp
+	"Game.h"
+
+1493163742 c:\users\dimit\desktop\stuff\git\rpgprojectwithcani\rpgprojectwithcani\include\map.h
+	"Includes.h"
+	"Tile.h"
+
+1493163546 source:c:\users\dimit\desktop\stuff\git\rpgprojectwithcani\rpgprojectwithcani\src\tile.cpp
+	"Tile.h"
+
+1493161302 c:\users\dimit\desktop\stuff\git\rpgprojectwithcani\rpgprojectwithcani\include\tile.h
+	"Includes.h"
+
+1493163794 source:c:\users\dimit\desktop\stuff\git\rpgprojectwithcani\rpgprojectwithcani\src\map.cpp
+	"Map.h"
+

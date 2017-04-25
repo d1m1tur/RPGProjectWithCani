@@ -13,6 +13,7 @@
 				<Option compiler="gcc" />
 				<Compiler>
 					<Add option="-g" />
+					<Add directory="include" />
 				</Compiler>
 			</Target>
 			<Target title="Release">
@@ -22,6 +23,7 @@
 				<Option compiler="gcc" />
 				<Compiler>
 					<Add option="-O2" />
+					<Add directory="include" />
 				</Compiler>
 				<Linker>
 					<Add option="-s" />
@@ -34,14 +36,18 @@
 		</Compiler>
 		<Unit filename="include/Game.h" />
 		<Unit filename="include/Includes.h" />
+		<Unit filename="include/Map.h" />
+		<Unit filename="include/Tile.h" />
 		<Unit filename="src/Cleanup.cpp" />
 		<Unit filename="src/FPS.cpp" />
 		<Unit filename="src/Game.cpp" />
 		<Unit filename="src/LoadContent.cpp" />
+		<Unit filename="src/Map.cpp" />
 		<Unit filename="src/OnEvent.cpp" />
 		<Unit filename="src/OnInit.cpp" />
 		<Unit filename="src/OnLoop.cpp" />
 		<Unit filename="src/OnRender.cpp" />
+		<Unit filename="src/Tile.cpp" />
 		<Extensions>
 			<code_completion />
 			<envvars />

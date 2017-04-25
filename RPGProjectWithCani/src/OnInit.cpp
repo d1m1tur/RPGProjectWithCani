@@ -50,25 +50,3 @@ bool Game::OnInit()
 
     return true;
 }
-
-SDL_Texture* Game::OnLoad(SDL_Renderer* Rend, char* File)
-{
-    SDL_Surface* Surf_Temp = NULL;
-    SDL_Texture* Text_Return = NULL;
-
-    if((Surf_Temp = IMG_Load(File)) == NULL)
-    {
-        cout<<"Surface not loaded"<<endl;
-        return NULL;
-    }
-
-    if((Text_Return = SDL_CreateTextureFromSurface(Rend, Surf_Temp)) == NULL)
-    {
-        cout<<"Creating texture from surface failed! Check your Renderer."<<endl;
-        return NULL;
-    }
-
-    SDL_FreeSurface(Surf_Temp);
-
-    return Text_Return;
-}

@@ -9,11 +9,13 @@ Game::Game()
     Icon = NULL;
     Running = true;
     Fullscreen = false;
+
+    frameRate = 0;
 }
 
 int Game::OnExecute()
 {
-    cout<<"Execute"<<endl;
+    OnStartup();
 
     if(OnInit() == false)
     {
@@ -21,27 +23,14 @@ int Game::OnExecute()
         return -1;
     }
 
-    cout<<"Init = true"<<endl;
-
     while(Running)
     {
-    cout<<"Running = true\n"<<endl;
-
         while(SDL_PollEvent(&Event))
         {
-            cout<<"Event = true"<<endl;
             OnEvent(&Event);
         }
-
-        cout<<"\nLoop phase start"<<endl;
         OnLoop();
-        cout<<"Loop phase end\n"<<endl;
-
-        cout<<"\nRender phase start"<<endl;
         OnRender();
-        cout<<"Render phase End\n"<<endl;
-
-        system("cls");
     }
 
     cout<<"Cleaning started"<<endl;
